@@ -1,3 +1,11 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,4 +74,17 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.datepicker{
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    width: 100%;
+    padding: 0.62rem;
+    border-radius: 8px;
+}
+
+.submit{
+  color: white !important;
+  border: 1px solid #d5d5d5;
+  background-color: rgb(38 98 233);
 }
